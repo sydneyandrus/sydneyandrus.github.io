@@ -10,27 +10,30 @@ html {
 
 body{
   background-color: #034732;
-  flex-direction: column;
-  align-items: center;
+  flex-direction: row;
+  justify-content: center;
   display: flex;
 }
  
 main{
-  align-self: center;
-  margin: 10 rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+  margin: 1 rem;
   width: 50%;
   max-width: 50rem;
 }
 
 .invitation{
   color: #44BBA4;
-  align-content: center;
+  align-self: center;
 }
 
 .map {
   list-style: none;
   flex-direction: row;
-  align-content: space-between;
+  justify-content: space-between;
+  align-items: flex-start;
 }
 
 .map > li > a:hover {
