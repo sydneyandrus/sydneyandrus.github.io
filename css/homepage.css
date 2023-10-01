@@ -22,6 +22,7 @@ main{
   margin: 1 rem;
   width: 50%;
   max-width: 50rem;
+  display: flex;
 }
 
 .invitation{
@@ -34,6 +35,7 @@ main{
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-start;
+  display: flex;
 }
 
 .map > li > a:hover {
