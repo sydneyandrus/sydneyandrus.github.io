@@ -26,12 +26,16 @@ main{
 }
 
 .map {
-  color: #e7e5df;
-  text-decoration: none;
+  list-style: none;
   flex-direction: row;
   align-content: space-between;
 }
 
 .map > li > a:hover {
   color: #E7BB41;
+}
+
+.map > li > a {
+  color: #e7e5df;
+  text-decoration: none;
 }
