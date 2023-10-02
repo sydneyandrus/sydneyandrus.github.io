@@ -17,7 +17,8 @@ body {
 }
 
 .navbar {
-  margin: 2 rem;
+  margin-top: 4rem;
+  margin-bottom: 3rem;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -27,6 +28,7 @@ body {
 }
 
 .navbarContent {
+  padding: 0;
   width:100%;
   margin:0;
   display: flex;
@@ -58,7 +60,7 @@ main {
 }
 
 h1 {
-  margin-top: 1 rem;
+  margin-top: 1rem;
   color: #44BBA4;
 }
 
