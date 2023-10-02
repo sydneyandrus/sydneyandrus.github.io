@@ -31,6 +31,8 @@ main{
 }
 
 .map {
+  padding: 0;
+  gap: 1rem;
   list-style: none;
   flex-direction: row;
   justify-content: space-between;
