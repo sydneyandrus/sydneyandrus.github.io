@@ -16,19 +16,20 @@ body {
 }
 
 .navbar {
+  margin: 2 rem;
   display: flex;
   flex-direction: row;
   justify-content: center;
+  width:70%;
+  max-width: 50rem;
+  padding:10px 30px 10px 30px;
 }
 
 .navbarContent {
   margin:0;
-  padding:10px 30px 10px 30px;
   display: flex;
   flex-direction: row;
-  max-width: 50rem;
   gap: 1rem;
-  width:70%;
   justify-content: space-between;
   list-style: none;
 }
@@ -75,13 +76,13 @@ footer {
   padding:10px 30px 10px 30px;
   gap: 1rem;
   width:70%;
-  justify-content: space-between;
+  justify-content: center;
   color:#97948B;
   font-size: 0.7rem;
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 3 rem;
+  gap: 3rem;
   margin-top: 30rem;
   flex-shrink: 0;
 }
