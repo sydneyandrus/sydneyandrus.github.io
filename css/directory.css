@@ -31,6 +31,12 @@ body {
   gap: 1rem;
   width:70%;
   justify-content: space-between;
+  list-style: none;
+}
+
+.homeLink > a {
+  color:  #034732;
+  text-decoration: none;
 }
 
 .navbarContent > li > a:hover {
@@ -39,10 +45,7 @@ body {
 
 .navbarContent > li > a {
   color: #97948B;
-}
-
-.homeLink {
-  color:  #034732;
+  text-decoration: none;
 }
 
 main {
@@ -56,7 +59,7 @@ h1 {
 }
 
 .contentLink {
-  font-size: 2rem;
+  font-size: 1rem;
 }
 
 .contentLink > a {
@@ -74,4 +77,12 @@ footer {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  align-items: center;
+  gap: 3 rem;
+  margin-top: auto;
+}
+
+footer > a {
+  text-decoration: none;
+  color: #97948B;
 }
