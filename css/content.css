@@ -27,6 +27,7 @@ body {
 }
 
 .navbarContent {
+  width:100%;
   margin:0;
   display: flex;
   flex-direction: row;
@@ -83,7 +84,7 @@ footer > a {
 
 p > a {
   text-decoration: none;
-  color:#034732;
+  color: #046244;
 }
 
 p > a:hover {
