@@ -75,7 +75,7 @@ footer {
   flex-direction: row;
   align-items: center;
   gap: 3rem;
-  margin-top: 30rem;
+  margin-top: 20rem;
   flex-shrink: 0;
 }
 
@@ -105,6 +105,6 @@ table {
   text-align: right;
 }
 
-.poem {
+.longQuote {
   margin-left: 3rem;
 }
