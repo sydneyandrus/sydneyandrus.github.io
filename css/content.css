@@ -52,6 +52,7 @@ main {
   color: #01130E;
   width:70%;
   max-width: 50rem;
+  flex: auto;
 }
 
 h1 {
@@ -59,12 +60,18 @@ h1 {
 }
 
 footer {
+  padding:10px 30px 10px 30px;
+  gap: 1rem;
+  width:70%;
+  justify-content: space-between;
   color:#97948B;
   font-size: 0.7rem;
   display: flex;
   flex-direction: row;
-  justify-content: center;
   align-items: center;
+  gap: 3 rem;
+  margin-top: auto;
+  flex-shrink: 0;
 }
 
 footer > a {
