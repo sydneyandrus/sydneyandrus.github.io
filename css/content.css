@@ -70,11 +70,21 @@ footer {
   flex-direction: row;
   align-items: center;
   gap: 3 rem;
-  margin-top: auto;
+  margin-top: 30rem;
   flex-shrink: 0;
 }
 
 footer > a {
   text-decoration: none;
   color: #97948B;
+}
+
+p > a {
+  text-decoration: none;
+  color:#034732;
+}
+
+p > a:hover {
+  text-decoration: none;
+  color: #E7BB41;
 }
