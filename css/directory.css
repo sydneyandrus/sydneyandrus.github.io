@@ -11,7 +11,6 @@ html {
 body {
   background-color: #E7E5DF;
   flex-direction: column;
-  justify-content: flex-start;
   align-items: center;
   display: flex;
 }
@@ -72,11 +71,13 @@ h1 {
 }
 
 footer {
+  gap: 1rem;
+  width:70%;
+  justify-content: space-between;
   color:#97948B;
   font-size: 0.7rem;
   display: flex;
   flex-direction: row;
-  justify-content: center;
   align-items: center;
   gap: 3 rem;
   margin-top: auto;
