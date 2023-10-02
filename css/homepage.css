@@ -39,10 +39,10 @@ main{
 }
 
 .map > li > a:hover {
-  color: #E7BB41;
+  color: #efca52;
 }
 
 .map > li > a {
-  color: #EBFEF8;
+  color: #F6FFF7;
   text-decoration: none;
 }

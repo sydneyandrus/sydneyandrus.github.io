@@ -9,7 +9,7 @@ html {
 }
 
 body {
-  background-color: #E7E5DF;
+  background-color: #F6FFF7;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
@@ -34,13 +34,13 @@ body {
   list-style: none;
 }
 
-.homeLink > a {
+.navbarContent > a > strong {
   color:  #034732;
   text-decoration: none;
 }
 
 .navbarContent > li > a:hover {
-  color: #E7BB41;
+  color: #efca52;
 }
 
 .navbarContent > li > a {
@@ -86,5 +86,5 @@ p > a {
 
 p > a:hover {
   text-decoration: none;
-  color: #E7BB41;
+  color: #efca52;
 }
