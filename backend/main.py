@@ -1,5 +1,7 @@
 from fastapi import FastAPI, Request
 from fastapi.responses import JSONResponse, HTMLResponse
+from fastapi.middleware.cors import CORSMiddleware
+from contextlib import asynccontextmanager
 
 from backend.routers.diary import diary_router
 from backend.routers.library import library_router
@@ -14,6 +16,14 @@ app = FastAPI(
 
 app.include_router(diary_router)
 app.include_router(library_router)
+
+app.add_middleware(
+  CORSMiddleware,
+  allow_origins=["*"],
+  allow_credentials=True,
+  allow_methods=["*"],
+  allow_headers=["*"],
+)
 
 @app.exception_handler(EntityNotFoundException)
 def handle_entity_not_found(
